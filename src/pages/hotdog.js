@@ -29,6 +29,8 @@ export const renderToppings = () => {
 
             topping.classList.toggle("topping--selected")
             toggleTopping(index)
+            
+            console.log(toppings)
 
         })
     })
